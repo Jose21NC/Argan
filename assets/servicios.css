@@ -1,0 +1,57 @@
+/* Estilo para los íconos de servicio (3ra modificacion) */
+.icono-servicio {
+    font-size: 40px;
+    background: linear-gradient(135deg, #ff00c8, #218ece); /* Degradado morado a celeste */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+  }
+  
+  
+  /* Estilo para los títulos de servicio */
+  .titulo-servicio {
+    font-family: 'Fredoka One', sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #5E5E5E; /* Gris */
+  }
+  
+  /* Estilo para las descripciones de servicio */
+  .descripcion-servicio {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #5E5E5E; /* Gris */
+    text-align: center;
+    margin-bottom: 20px; /* Mayor separación */
+  }
+  
+  /* Estilo para los cuadros de servicio */
+  .servicio {
+    background: #fff; /* Fondo blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px; /* Espacio entre cuadros */
+  }
+  
+  /* Estilo para el botón de llamado a la acción */
+  .btn-accion {
+    font-family: 'Fredoka One', sans-serif;
+    font-size: 13px;
+    border-radius: 20px;
+    padding: 12px 20px;
+    background-color: #e36397; /* Rosado */
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0.25px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .btn-accion:hover {
+    background-color: #218ece; 
+  }
+  
