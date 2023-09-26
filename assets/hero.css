@@ -1,0 +1,43 @@
+/* Estilos para el hero */
+.hero {
+    background: linear-gradient(#218ECE, #906CE0); /* Cambio en la dirección del degradado */
+    color: #fff;
+    text-align: left;
+    padding: 165px 0 20px;
+}
+
+.hero-title {
+    font-family: 'Fredoka One', sans-serif;
+    font-size: 48px; /* Tamaño de texto del título aumentado */
+}
+
+.hero-description {
+    font-family: 'Fredoka One', sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Estilo para el botón */
+.btn-primary {
+    background-color: #E36397;
+    border: none;
+    color: #fff;
+}
+
+/* Estilos para la imagen */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilo para el texto que cambia */
+#changingText {
+    color: #E36397;
+    animation: changeText 3s linear infinite;
+}
+
+@keyframes changeText {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
