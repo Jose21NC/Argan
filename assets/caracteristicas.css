@@ -1,0 +1,57 @@
+/* Estilos para la sección de características */
+#caracteristicas {
+    background: linear-gradient(to bottom, #856FDE, #E36397); /* Fondo degradado morado a rosa */
+    color: white; /* Cambia el color del texto a blanco */
+    padding: 80px 0;
+    text-align: center; /* Alinea el contenido al centro */
+    font-family: Fredoka One;
+}
+
+#caracteristicas .caracteristicas-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.caracteristica {
+    text-align: center;
+}
+
+/* Cambios de color para los íconos y títulos de las características */
+.icono-caracteristica.icono-1 {
+    color: #B9DEF4; /* Color personalizado para el ícono de la característica 1 */
+}
+
+.titulo-caracteristica.titulo-1 {
+    color: #B9DEF4; /* Color personalizado para el título de la característica 1 */
+}
+
+.icono-caracteristica.icono-2 {
+    color: #E8FF99; /* Color personalizado para el ícono de la característica 2 */
+}
+
+.titulo-caracteristica.titulo-2 {
+    color: #E8FF99; /* Color personalizado para el título de la característica 2 */
+}
+
+.icono-caracteristica.icono-3 {
+    color: #10F281; /* Color personalizado para el ícono de la característica 3 */
+}
+
+.titulo-caracteristica.titulo-3 {
+    color: #10F281; /* Color personalizado para el título de la característica 3 */
+}
+
+.descripcion-caracteristica {
+    font-size: 16px;
+    color: #fff; /* Cambia el color del texto a blanco */
+    font-family: Poppins;
+}
+
+.icono-caracteristica {
+    font-size: 80px; /*tamaño de los iconos*/
+    padding-bottom: 20px;
+}
