@@ -1,0 +1,107 @@
+/* Estilos para la sección "Gestión IA" */
+#gestion-ia {
+    background: #fff;
+    padding: 6rem 0;
+    text-align: center;
+}
+
+#gestion-ia h1 {
+    font-family: 'Fredoka One', sans-serif;
+    font-size: 36px;
+    color: #218ece;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+#gestion-ia p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 24px;
+}
+
+#gestion-ia .btn {
+    font-family: 'Fredoka One', sans-serif;
+    font-size: 1rem;
+    border-radius: 20px;
+}
+
+#gestion-ia .btn:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#gestion-ia .btn.btn-primary {
+    color: #fff;
+    background-color: #e36397;
+    border-color: #e36397;
+}
+
+#gestion-ia .btn.btn-primary:hover {
+    background-color: #218ece;
+}
+
+#gestion-ia .btn-square {
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    border-radius: 50%; /* Bordes redondeados completos */
+    background-color: #e36397;
+    color: #fff;
+    margin-right: 20px; /* Espacio entre el ícono y el texto */
+}
+
+
+#gestion-ia .d-flex h5 {
+    font-family: 'Fredoka One', sans-serif;
+    font-size: 18px;
+    color: #218ece;
+    font-weight: 600;
+    text-align: left;
+}
+
+#gestion-ia .d-flex p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #555;
+    margin: 0;
+}
+
+#gestion-ia .gestion-ia-image img {
+    max-width: 100%; /* Ajustar el ancho máximo de la imagen */
+    height: auto;
+}
+
+@media (max-width: 991.98px) {
+    #gestion-ia .navbar {
+        position: relative;
+        background: #fff;
+    }
+
+    #gestion-ia .navbar .navbar-collapse {
+        margin-top: 15px;
+        border-top: 1px solid #ddd;
+    }
+
+    #gestion-ia .navbar .navbar-nav .nav-link {
+        padding: 10px 0;
+        margin-left: 0;
+        color: #333;
+    }
+
+    #gestion-ia .navbar .navbar-nav .nav-link:hover,
+    #gestion-ia .navbar .navbar-nav .nav-link.active {
+        color: #e36397;
+    }
+
+    #gestion-ia .navbar .navbar-brand h1 {
+        color: #e36397;
+    }
+
+    #gestion-ia .navbar-light .navbar-brand img {
+        max-height: 45px;
+    }
+}
