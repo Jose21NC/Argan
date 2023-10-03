@@ -1,0 +1,43 @@
+/* Estilos para la sección con degradado */
+.gradient-section {
+    background: linear-gradient(to bottom, #E36397, #5981BE);
+    text-align: center;
+    padding: 80px 0;
+    color: white;
+  }
+  
+  /* Estilos para el equipo */
+  .team-info {
+    border-radius: 40px;
+  }
+  
+  .gradient-section h2 {
+    font-size: 46px;
+    margin-bottom: 20px;
+    font-family: Fredoka One;
+  }
+  
+  .team-info p {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 20px;
+    font-family: Poppins;
+  }
+  
+  .btn-contacto {
+    background-color: #E36397;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-contacto:hover {
+    background-color: #5981BE;
+  }
+  
+  /* Resto de tus estilos pueden ir aquí */
+  
