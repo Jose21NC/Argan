@@ -1,0 +1,81 @@
+/* Estilos generales */
+body {
+    font-family: 'Argan', sans-serif;
+    background: linear-gradient(to bottom, #5981BE, #218ECE);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilos para los formularios */
+.login-form, .register-form {
+    background-color: #fff
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+}
+
+.register-form {
+
+    display: none !important;s
+
+}
+
+h1 {
+    font-size: 24px;
+    color: #218ECE;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin: 10px 0;
+}
+
+label {
+    font-size: 16px;
+    color: #555;
+    text-align: left;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #218ECE;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5981BE;
+}
+
+#login-link, #register-link {
+    color: #218ECE;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#login-link:hover, #register-link:hover {
+    text-decoration: underline;
+}

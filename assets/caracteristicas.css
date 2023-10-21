@@ -22,11 +22,13 @@
 
 /* Cambios de color para los íconos y títulos de las características */
 .icono-caracteristica.icono-1 {
-    color: #B9DEF4; /* Color personalizado para el ícono de la característica 1 */
+    color: #E8FF99; /* Color personalizado para el título de la característica 2 */
+    color: ; /* Color personalizado para el ícono de la característica 1 */
 }
 
 .titulo-caracteristica.titulo-1 {
-    color: #B9DEF4; /* Color personalizado para el título de la característica 1 */
+    color: #E8FF99; /* Color personalizado para el título de la característica 2 */
+    color: ; /* Color personalizado para el título de la característica 1 */
 }
 
 .icono-caracteristica.icono-2 {
@@ -38,11 +40,13 @@
 }
 
 .icono-caracteristica.icono-3 {
-    color: #10F281; /* Color personalizado para el ícono de la característica 3 */
+    color: #E8FF99; /* Color personalizado para el título de la característica 2 */
+    color: ; /* Color personalizado para el ícono de la característica 3 */
 }
 
 .titulo-caracteristica.titulo-3 {
-    color: #10F281; /* Color personalizado para el título de la característica 3 */
+    color: #E8FF99; /* Color personalizado para el título de la característica 2 */
+    color: ; /* Color personalizado para el título de la característica 3 */
 }
 
 .descripcion-caracteristica {

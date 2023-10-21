@@ -3,7 +3,7 @@
 <head>
 
     <!-- Titulo -->
-    <title>Argan - Desarolla tu negocio con nuestros servicios</title>
+    <title>Argan - Desarrolla tu negocio con nuestros servicios</title>
     <!-- Extras -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
@@ -15,22 +15,39 @@
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500&family=League+Spartan:wght@400;700&family=Poppins:wght@200;400;500;600&display=swap" rel="stylesheet">
     <!-- Archivos CSS -->
     <link rel="stylesheet" href="assets/header.css">
-    <link rel="stylesheet" href="assets/hero.css">
-    <link rel="stylesheet" href="assets/servicios.css">
-    <link rel="stylesheet" href="assets/caracteristicas.css">
-    <link rel="stylesheet" href="assets/presupuesto.css">
-    <link rel="stylesheet" href="assets/gestion.css">
-    <link rel="stylesheet" href="assets/faq.css">
-    <link rel="stylesheet" href="assets/contacto.css">
+    <link rel="stylesheet" href="assets/login.css">
     <link rel="stylesheet" href="assets/footer.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- FIREBASE DB-->
+    <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
   
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyAJM5X3jQUzqjnyzFJVPh6-9mqwPE7qejM",
+      authDomain: "argan-7f399.firebaseapp.com",
+      projectId: "argan-7f399",
+      storageBucket: "argan-7f399.appspot.com",
+      messagingSenderId: "868827471488",
+      appId: "1:868827471488:web:2f34bc3dbfde5908a91065",
+      measurementId: "G-QG6VT7D4T1"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
 
 
     
     <!-- Archivos JS -->
-    <script src="assets/menu.js"></script>
+    <script src="assets/login.js"></script>
 </head>
 <body>
     <!-- ***** Preloader ***** -->
@@ -42,6 +59,32 @@
         </div>
     </div>
     <!-- ***** Final Preloader ***** -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -98,6 +141,46 @@
 
 
 
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+
+<div class="login">
+  <h2 class="active"> sign in </h2>
+
+  <h2 class="nonactive"> sign up </h2>
+  <form>
+   
+    
+
+    <input type="text" class="text" name="username">
+     <span>username</span>
+
+    <br>
+    
+    <br>
+
+    <input type="password" class="text" name="password">
+    <span>password</span>
+    <br>
+
+    <input type="checkbox" id="checkbox-1-1" class="custom-checkbox" />
+    <label for="checkbox-1-1">Keep me Signed in</label>
+    
+    <button class="signin">
+      Sign In
+    </button>
+
+
+    <hr>
+
+    <a href="#">Forgot Password?</a>
+  </form>
+
+</div>
+
+
+
+
+   
 
 
 
@@ -109,16 +192,13 @@
 
 
 
+<footer class="footer">
+
+    <div class="">
 
 
-    <!-- Site footer -->
-  <footer class="site-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 col-md-6">
-          <h6 style="font-family: Fredoka One;">Argan</h6>
-    <p style="color: #fff;" class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, mollitia id itaque sit consequatur alias culpa! Dolor, quasi minima nesciunt officiis perferendis blanditiis..</p>
-        </div>
+
+    </div>
 
         <div class="col-xs-6 col-md-3">
           <h6 style="font-family: Fredoka One;">Pagina</h6>
@@ -177,6 +257,9 @@
 
 
   
+
+
+
 
 
 
