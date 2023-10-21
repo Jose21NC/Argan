@@ -1,6 +1,7 @@
 /* Estilos para el hero */
 .hero {
-    background: linear-gradient(#218ECE, #906CE0); /* Cambio en la dirección del degradado */
+   /* background: linear-gradient(#218ECE, #906CE0); /* Cambio en la dirección del degradado */
+   background: #218ece;
     color: #fff;
     text-align: left;
     padding: 165px 0 20px;
