@@ -61,3 +61,26 @@
     50% { opacity: 0; }
     100% { opacity: 1; }
 }
+
+
+/* Agrega estas reglas CSS al final de tu archivo CSS actual */
+
+/* Estilo para la imagen del héroe */
+.hero img {
+    width: 100%; /* Ajusta el ancho de la imagen según sea necesario */
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+    animation: heroAnimation 5s linear infinite; /* 5s es la duración de la animación */
+}
+
+/* Animación de movimiento suave */
+@keyframes heroAnimation {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(20px); /* Controla la cantidad y dirección del movimiento */
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
